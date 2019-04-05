@@ -26,7 +26,6 @@ class App extends Component {
 	}
 
 	addSmurf = (newSmurf) => {
-		console.log(newSmurf);
 		axios
 			.post('http://localhost:3333/smurfs', newSmurf)
 			.then((res) => {
@@ -55,7 +54,6 @@ class App extends Component {
 	// Notice what your map function is looping over and returning inside of Smurfs.
 	// You'll need to make sure you have the right properties on state and pass them down to props.
 	render() {
-		console.log(this.props);
 		return (
 			<div className="App">
 				<nav>
