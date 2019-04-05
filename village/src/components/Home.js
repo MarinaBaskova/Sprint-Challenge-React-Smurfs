@@ -7,10 +7,12 @@ function Home(props) {
 	};
 	return (
 		<div className="homeWrapper">
-			<h2>Welcome to Smurf's village</h2>
-			<button onClick={navigateToSmurfs} className="homeBtn">
-				All Smurfs
-			</button>
+			<div className="homeHeader">
+				<h2>Welcome to Smurf's village</h2>
+				<button onClick={navigateToSmurfs} className="homeBtn">
+					All Smurfs
+				</button>
+			</div>
 		</div>
 	);
 }

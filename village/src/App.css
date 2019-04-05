@@ -1,3 +1,64 @@
 .App {
-  text-align: center;
+	text-align: center;
+	border: 2px solid red;
+	margin: 0 auto;
+	height: auto;
+	width: auto;
+}
+.nav {
+	width: 100%;
+}
+.navLinks {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #3a3a3a;
+}
+a {
+	text-decoration: none;
+	margin: 10px;
+	color: #00d6d6;
+	font-weight: bolder;
+	border-radius: 7px;
+	height: 23px;
+	width: 146px;
+	text-align: center;
+	padding-top: 11px;
+}
+
+.navLinks a.active {
+	color: white;
+}
+.homeWrapper {
+	background-image: url('./img/main.jpeg');
+	background-size: cover;
+	-o-object-fit: contain;
+	object-fit: fill;
+	height: 100vh;
+	background-repeat: no-repeat;
+	padding-top: 145px;
+}
+h2 {
+	margin-top: -67px;
+	margin-bottom: 70px;
+	color: #3a3a3a;
+	font-weight: bolder;
+	font-size: 37px;
+}
+.homeBtn {
+	background-color: #3a3a3a;
+	border: #3a3a3a;
+	border-radius: 5px;
+	color: #00d6d6;
+	height: 31px;
+	width: 87px;
+	font-size: 13px;
+	font-weight: 700;
+	outline: none;
+	cursor: pointer;
+}
+.homeBtn:hover {
+	color: white;
+	height: 40px;
+	width: 100px;
 }
